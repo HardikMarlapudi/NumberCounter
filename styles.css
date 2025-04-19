@@ -1,0 +1,63 @@
+.title {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+}
+
+#number {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 80px;
+    font-display: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#decrease-btn {
+    display: inline-flexbox;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    width: 45px;
+    border: 140;
+    border-color: hsl(0, 90%, 48%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btn-zero {
+    display: inline-flexbox;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: darkgray;
+    color: white;
+    font-size: 30px;
+    width: 45px;
+    border: 140;
+    border-color: hsl(48, 12%, 92%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#increase-btn {
+    display: inline-flexbox;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    width: 45px;
+    border: 140;
+    border-color: hsl(118, 92%, 48%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
