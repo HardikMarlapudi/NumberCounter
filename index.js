@@ -1,16 +1,16 @@
 let number = 0;
 
-document.getElementById("decrease-btn").addEventListener("click", function() {
+document.getElementById("decrease-btn").onclick = function() {
     number--;
     document.getElementById("number").innerHTML = number;
-});
+};
 
-document.getElementById("btn-zero").addEventListener("click", function() {
+document.getElementById("btn-zero").onclick = function() {
     number = 0;
     document.getElementById("number").innerHTML = number;
-});
+};
 
-document.getElementById("increase-btn").addEventListener("click", function() {
+document.getElementById("increase-btn").onclick = function() {
     number++;
     document.getElementById("number").innerHTML = number;
-});
+};

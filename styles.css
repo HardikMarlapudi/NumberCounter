@@ -50,18 +50,26 @@ body > :not(footer) {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#decrease-btn:hover{
+    background-color:lightcoral;
+}
+
 #btn-zero {
     display: inline-flexbox;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    background-color: darkgray;
+    background-color: blue;
     color: white;
     font-size: 30px;
     width: 95px;
     border: 140;
-    border-color: hsl(48, 12%, 92%);
+    border-color: hsl(232, 83%, 50%);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btn-zero:hover {
+    background-color: lightblue;
 }
 
 #increase-btn {
@@ -76,6 +84,10 @@ body > :not(footer) {
     border: 140;
     border-color: hsl(118, 92%, 48%);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+#increase-btn:hover{
+    background-color: lightgreen;
 }
 
 footer {
